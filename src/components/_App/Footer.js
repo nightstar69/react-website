@@ -52,7 +52,7 @@ const Footer = () => {
                     <Link to="/about-1">About</Link>
                   </li>
                   <li>
-                    <Link to="/contact">Contack Us</Link>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                   <li>
                     <Link to="/services-5">Apply</Link>
@@ -210,8 +210,8 @@ const Footer = () => {
                 <ul className="footer-contact-info">
                   <li>
                     <Icon.MapPin />
-                    Bhopal, Madhya Pradesh
-                    <br /> INDIA
+                    Bhopal, Madhya Pradesh,
+                    <br /> India
                   </li>
                   <li>
                     <Icon.Mail />
