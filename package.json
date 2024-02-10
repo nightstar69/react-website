@@ -25,6 +25,7 @@
     "swiper": "^9.3.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "prettier": "^2.8.7"
   },
   "keywords": [
@@ -38,7 +39,9 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
