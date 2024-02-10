@@ -46,16 +46,16 @@ const Footer = () => {
                 <h3>Find more</h3>
                 <ul className="list">
                   <li>
-                    <Link to="/about-1">Home</Link>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <Link to="/services-1">About</Link>
+                    <Link to="/about-1">About</Link>
                   </li>
                   <li>
-                    <Link to="/features">Contack Us</Link>
+                    <Link to="/contact">Contack Us</Link>
                   </li>
                   <li>
-                    <Link to="/pricing">Apply</Link>
+                    <Link to="/services-5">Apply</Link>
                   </li>
                 </ul>
               </div>
@@ -216,7 +216,7 @@ const Footer = () => {
                   <li>
                     <Icon.Mail />
                     Email:{" "}
-                    <a href="mailto:spet@gmail.com">
+                    <a href="mailto:bharatintern.info@gmail.com">
                       bharatintern.info@gmail.com
                     </a>
                   </li>
