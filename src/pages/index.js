@@ -30,7 +30,7 @@ const IndexPage = () => (
     {/* <Team /> */}
 
     {/* Youtube---------- */}
-    <div className="pricing-area pt-80 pb-80 mb-0 bg-f9f6f6">
+    <div className="pricing-area youtube-div pt-80 pb-80 mb-0 bg-f9f6f6">
       <div className="video-box" style={{ textAlign: "center" }}>
         <div className="section-title">
           <h2>YouTube Channel</h2>
@@ -38,7 +38,7 @@ const IndexPage = () => (
         </div>
         <iframe
           id="youtube-iframe"
-          style={{ textAlign: "center", width: "590px", height: "360px" }}
+          style={{ }}
           src="https://www.youtube.com/embed/LrEM9hUrLHI?autoplay=0"
           frameborder="0"
           allowfullscreen

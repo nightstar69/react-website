@@ -53,7 +53,7 @@ const MainBanner = () => {
                     </p>
 
                     <Link
-                      to="/contact"
+                      to="/services-5"
                       className="btn btn-primary"
                       data-aos="fade-up"
                       data-aos-delay="300"

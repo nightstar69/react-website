@@ -680,6 +680,16 @@ const Navbar = () => {
                     Contact
                   </Link>
                 </li>
+                <li className="nav-item apply-mobile">
+                  <Link
+                    to="/services-5"
+                    activeClassName="active"
+                    onClick={toggleNavbar}
+                    className="nav-link"
+                  >
+                    Apply
+                  </Link>
+                </li>
               </ul>
             </div>
 

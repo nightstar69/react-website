@@ -555,6 +555,20 @@ Navbar CSS
 nav img {
   width: 160px;
 }
+.apply-mobile{
+  display:none;
+  /* visibility: hidden; */
+}
+@media only screen and (max-width: 991px)  {
+  nav img {
+    width: 130px;
+  }
+  .apply-mobile{
+    display:block;
+    /* visibility: visible; */
+  }
+
+}
 .startp-nav nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #4a6f8a;
 }
@@ -5287,6 +5301,19 @@ Sidebar Widget CSS
   display: inline-block;
   margin: 0 3px;
 }
+#youtube-iframe{
+  text-align: center;
+  width: 590px;
+  height: 360px; 
+}
+@media screen and (max-width: 600px) {
+  #youtube-iframe{
+    text-align: center;
+    width: 92%;
+    height: 220px; 
+  }
+}
+
 .widget-area .widget_author ul li i {
   background-color: #fafafa;
   width: 35px;
