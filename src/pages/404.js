@@ -1,6 +1,6 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Layout from "../components/_App/layout"
+import { Link } from "gatsby"
 import Seo from "../components/_App/seo"
 
 const NotFoundPage = () => (
