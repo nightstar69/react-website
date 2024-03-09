@@ -8,13 +8,19 @@ import Shape4 from "../../images/shape4.svg"
 import Shape5 from "../../images/shape5.png"
 
 const PageBanner = ({ pageTitle }) => {
+  const words = pageTitle.split(' ');
+
+// Assuming you want the first two words in one variable and the rest in another
+const title = words.slice(0, 3).join(' ');
+const session = words.slice(3).join(' ');
   return (
     <>
       <div className="page-title-area">
         <div className="d-table">
           <div className="d-table-cell">
             <div className="container">
-              <h2>{pageTitle}</h2>
+              <h2>{title}</h2>
+              <h5>{session}</h5>
             </div>
           </div>
         </div>

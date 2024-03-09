@@ -24,7 +24,7 @@ const ServicesPage5 = () => (
   <Layout>
     <Navbar />
 
-    <PageBanner pageTitle="INTERNSHIPS WE OFFER !" />
+    <PageBanner pageTitle="INTERNSHIPS WE OFFER!" />
 
     <div className="agency-services-area ptb-80 pb-50">
       <div className="container">

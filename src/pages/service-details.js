@@ -21,7 +21,7 @@ const ServiceDetailsPage = () => (
   <Layout>
     <Navbar />
 
-    <PageBanner pageTitle="Virtual Internship Program " />
+    <PageBanner pageTitle="Virtual Internship Program (April-May Session)" />
 
     <div
       className="services-details-area col-lg-12"
@@ -31,6 +31,7 @@ const ServiceDetailsPage = () => (
         <div style={{ margin: "auto", textAlign: "center" }}>
           {/* <h4>( March - April Session )</h4><br /> */}
           <h4>Student Details</h4><br />
+          {/* <h6></h6> */}
         </div>
         <form
           action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSfuU7Nmy2Wbp0w3Er7pyH4CIYDf6N6yaN77X_KBpG-3XwFWmA/formResponse"
