@@ -361,7 +361,7 @@ const ServiceDetailsPage = () => (
                 <label>
                   I have joined the Telegram Group:{" "}
                   <a
-                    href="https://t.me/bharatintern"
+                    href="https://t.me/bharatintern" target="_blank" rel="noopener noreferrer"
                     style={{ textDecoration: "underline" }}
                   >
                     {" "}

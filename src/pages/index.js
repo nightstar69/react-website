@@ -14,9 +14,13 @@ import FunFactsArea from "../components/Common/FunFactsArea"
 // import Partner from "../components/Common/Partner"
 // import BlogPost from "../components/Common/BlogPost"
 import Footer from "../components/_App/Footer"
+import { Script } from "gatsby"
 
 const IndexPage = () => (
+  
   <Layout>
+    <Script  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7614767999716149"
+     crossOrigin="anonymous"></Script>
     <Navbar />
 
     <MainBanner />
