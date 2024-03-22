@@ -43,7 +43,7 @@ const IndexPage = () => (
         <iframe
           id="youtube-iframe"
           style={{ }}
-          src="https://www.youtube.com/embed/LrEM9hUrLHI?autoplay=0"
+          src="https://www.youtube.com/embed/YjjCuRJGWpg?autoplay=0"
           frameborder="0"
           allowfullscreen
         ></iframe>
