@@ -717,7 +717,7 @@ nav img {
    text-align:center;
    flex-direction: row ; 
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 791px) {
   .aicte {
     background-color:#fff;
      display:flex;
