@@ -69,6 +69,7 @@ const IndexPage = () => (
 
     <BlogPost /> */}
  {/* Aicte---------- */}
+{/*
     <div className="pt-50 pb-80 mb-0 aicte">
         <div style={{backgroundColor:"#ffffff", borderRadius:"8px", width:"170px",height:"170px", display:"flex",justifyContent:"center",textAlign:"center", margin:"10px 70px" ,  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)"}}>
           <img
@@ -91,6 +92,7 @@ const IndexPage = () => (
           />
         </div>
     </div>
+    */}
     <Footer />
   </Layout>
 )
