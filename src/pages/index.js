@@ -13,6 +13,11 @@ import FunFactsArea from "../components/Common/FunFactsArea"
 // import Feedback from "../components/Common/Feedback"
 // import Partner from "../components/Common/Partner"
 // import BlogPost from "../components/Common/BlogPost"
+import aicteLogo from "../images/aicteLogo.png"
+
+import msme from "../images/msme.png"
+
+import mca from "../images/mca.png"
 import Footer from "../components/_App/Footer"
 import { Script } from "gatsby"
 
@@ -63,7 +68,29 @@ const IndexPage = () => (
     <Partner />
 
     <BlogPost /> */}
-
+ {/* Aicte---------- */}
+    <div className="pt-50 pb-80 mb-0 aicte">
+        <div style={{backgroundColor:"#ffffff", borderRadius:"8px", width:"170px",height:"170px", display:"flex",justifyContent:"center",textAlign:"center", margin:"10px 70px" ,  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)"}}>
+          <img
+            src={msme}
+            alt="logo"
+            style={{ margin:"auto",width:"120px",height:"120px" }}
+          />
+        </div>
+        <div style={{backgroundColor:"#ffffff", borderRadius:"8px", width:"170px",height:"170px", display:"flex",justifyContent:"center",textAlign:"center", margin:"10px 70px" ,  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)"}}>
+          <img
+            src={aicteLogo}
+            alt="logo"
+            style={{ margin:"auto",width:"120px",height:"120px" }}
+          />
+        </div><div style={{backgroundColor:"#ffffff", borderRadius:"8px", width:"170px",height:"170px", display:"flex",justifyContent:"center",textAlign:"center", margin:"10px 70px" ,  boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)"}}>
+          <img
+            src={mca}
+            alt="logo"
+            style={{ margin:"auto",width:"140px",height:"140px" }}
+          />
+        </div>
+    </div>
     <Footer />
   </Layout>
 )
