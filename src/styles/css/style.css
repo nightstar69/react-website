@@ -710,8 +710,25 @@ nav img {
   transform: rotate(0);
   left: 0;
 }
-
+.aicte {
+  background-color:#fff;
+   display:flex;
+   justify-content:center;
+   text-align:center;
+   /* flex-direction: column ;  */
+}
 @media only screen and (max-width: 991px) {
+  .aicte {
+    background-color:#fff;
+     display:flex;
+     justify-content:center;
+     text-align:center;
+     
+   margin:20px auto;
+   align-items: center;
+   padding: 20px 0;
+     flex-direction: column ; 
+  }
   #header {
     padding-top: 15px;
     padding-bottom: 15px;
