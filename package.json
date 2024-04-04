@@ -1,12 +1,13 @@
 {
   "name": "spet",
   "private": true,
-  "description": "Gatsby React Technology & IT Business Company Template",
+  "description": "Bharat Intern",
   "version": "1.6.0",
   "author": "@envytheme",
   "dependencies": {
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
+    "axios": "^1.6.8",
     "gatsby": "^5.9.1",
     "gatsby-plugin-image": "^3.8.0",
     "gatsby-plugin-manifest": "^5.8.0",
@@ -22,6 +23,7 @@
     "react-responsive-masonry": "^2.1.7",
     "react-slick": "^0.29.0",
     "react-tabs": "^6.0.1",
+    "react-toastify": "^10.0.5",
     "swiper": "^9.3.1"
   },
   "devDependencies": {
