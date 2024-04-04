@@ -145,6 +145,18 @@ const Verify = () => {
                   >
                     Name: <span style={{ color: "#6788AC" }}>{user.name}</span>
                   </h6>
+                      <h6
+                    style={{
+                      padding: "10px",
+                      backgroundColor: "#fff",
+                      border: "1px solid #1DB44C",
+                      borderRadius: "6px",
+                      marginBottom: "10px",
+                    }}
+                  >
+                    Certificate Code:{" "}
+                    <span style={{ color: "#6788AC" }}>{user.code}</span>
+                  </h6>
                   <h6
                     style={{
                       padding: "10px",
