@@ -37,20 +37,23 @@ const IndexPage = () => (
           <img
             src={msme}
             alt="logo"
-            style={{ margin:"auto",width:"120px",height:"120px" }}
+           
+            className="aicteImg"
           />
         </div>
         <div  className="aicteDiv">
           <img
             src={aicteLogo}
             alt="logo"
-            style={{ margin:"auto",width:"120px",height:"120px" }}
+         
+            className="aicteImg"
           />
         </div><div className="aicteDiv"  >
           <img
             src={mca}
             alt="logo"
-            style={{ margin:"auto",width:"120px",height:"120px" }}
+         
+            className="aicteImg"
           />
         </div>
     </div>
