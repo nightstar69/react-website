@@ -660,6 +660,16 @@ const Navbar = () => {
                     Home
                   </Link>
                 </li>
+                      <li className="nav-item">
+                  <Link
+                    to="/verify"
+                    activeClassName="active"
+                    onClick={toggleNavbar}
+                    className="nav-link"
+                  >
+                    Verify
+                  </Link>
+                </li>
                 <li className="nav-item">
                   <Link
                     to="/about-1"
