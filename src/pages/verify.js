@@ -6,17 +6,19 @@ import Navbar from "../components/_App/Navbar"
 import Footer from "../components/_App/Footer"
 import PageBanner from "../components/Common/PageBanner"
 import { toast, ToastContainer } from "react-toastify"
-
+import loadingImg from "../images/loading.svg"
 import "react-toastify/dist/ReactToastify.css"
 
 const Verify = () => {
   const [userData, setUserData] = useState(null)
-
+  const [loading, setLoading] = useState(false)
   const verifyCertificate = async event => {
     event.preventDefault()
     const email = event.target.email.value
 
     try {
+      setLoading(true)
+
       const response = await axios.post(
         "https://verify-api.onrender.com/verify",
         // "http://localhost:3000/verify",
@@ -28,15 +30,17 @@ const Verify = () => {
         }
       )
 
-      if (response.status !== 200) {
+      if (!response.data[0] || response.status !== 200) {
         throw new Error("Failed to verify certificate")
       }
 
-      const data = response.data;
-      console.log(data);
+      const data = response.data
+      console.log(data)
+      setLoading(false)
       toast.success("Certificate verified!")
       setUserData(data) // Update state with user data
     } catch (error) {
+      setLoading(false)
       setUserData(null)
       toast.error("Failed to verify certificate") // Show toast notification
       console.error("Error:", error.message)
@@ -88,7 +92,17 @@ const Verify = () => {
                   className="btn btn-primary order-btn"
                   type="submit"
                 >
-                  Search
+                  {!loading && <span>Search</span>}
+                  {loading && (
+                    <>
+                      <span>Searching </span>{" "}
+                      <img
+                        src={loadingImg}
+                        style={{ width: "30px", height: "30px" }}
+                        alt="loading"
+                      />
+                    </>
+                  )}
                 </button>
               </div>
             </div>
@@ -114,7 +128,12 @@ const Verify = () => {
             <div style={{ lineHeight: "2", fontSize: "16px" }}>
               {userData.map((user, index) => (
                 <div key={index} style={{ marginBottom: "30px" }}>
-                  <p style={{fontSize:"16px",color:"#1DB44C"}}><span  style={{ textDecorationLine:"underline"}}>Internship</span>: {index+1}</p>
+                  <p style={{ fontSize: "16px", color: "#1DB44C" }}>
+                    <span style={{ textDecorationLine: "underline" }}>
+                      Internship
+                    </span>
+                    : {index + 1}
+                  </p>
                   <h6
                     style={{
                       padding: "10px",
@@ -124,8 +143,7 @@ const Verify = () => {
                       marginBottom: "10px",
                     }}
                   >
-                    Name:{" "}
-                    <span style={{ color: "#6788AC" }}>{user.name}</span>
+                    Name: <span style={{ color: "#6788AC" }}>{user.name}</span>
                   </h6>
                   <h6
                     style={{
@@ -148,8 +166,7 @@ const Verify = () => {
                       marginBottom: "10px",
                     }}
                   >
-                    Duration:{" "}
-                    <span style={{ color: "#6788AC" }}>4 weeks</span>
+                    Duration: <span style={{ color: "#6788AC" }}>4 weeks</span>
                   </h6>
                   <h6
                     style={{
@@ -184,8 +201,8 @@ const Verify = () => {
       <Footer />
       <ToastContainer />
     </Layout>
-  );
-};
+  )
+}
 
 export const Head = () => <Seo title="Verify Certificate" />
 
