@@ -24,7 +24,7 @@ const Footer = () => {
               <div className="single-footer-widget">
                 <div className="logo">
                   <Link to="/">
-                    <img src={Logo} alt="logo" width={150} />
+                    <img src={Logo} alt="logo" width={210} />
                   </Link>
                 </div>
                 <p>
