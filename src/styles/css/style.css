@@ -553,7 +553,7 @@ Navbar CSS
   visibility: hidden !important;
 }
 nav img {
-  width: 210px;
+  width: 180px;
 }
 .apply-mobile{
   display:none;
@@ -561,7 +561,7 @@ nav img {
 }
 @media only screen and (max-width: 991px)  {
   nav img {
-    width: 170px;
+    width: 140px;
   }
   .apply-mobile{
     display:block;
