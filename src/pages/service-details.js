@@ -135,7 +135,7 @@ const ServiceDetailsPage = () => {
                   margin: "auto",
                 }}
               >
-                Note: Please don't apply many times for the same domain, or your
+                Note: Please don't apply multiple times, or your
                 application will be consider as invalid.
               </p>
 
@@ -456,7 +456,7 @@ const ServiceDetailsPage = () => {
               <div className="col-lg-12 col-md-12 apply-form-input-box">
                 <div className="form-group">
                   <label>
-                    I have joined the Telegram Group:{" "}
+                    I have joined the Telegram group (mandatory for internship updates and project information):{" "}
                     <a
                       href="https://t.me/bharatintern"
                       target="_blank"
