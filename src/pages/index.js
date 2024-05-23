@@ -64,23 +64,23 @@ const IndexPage = () => (
     {/* <Team /> */}
 
     {/* Youtube---------- */}
-    <div className="pricing-area youtube-div pt-80 pb-80 mb-0 bg-f9f6f6">
-      <div className="video-box" style={{ textAlign: "center" }}>
-        <div className="section-title">
-          <h2>YouTube Channel</h2>
-          <div className="bar"></div>
-        </div>
-        <iframe title="Descriptive title"
-          id="youtube-iframe"
-          style={{ }}
-          src="https://www.youtube.com/embed/YjjCuRJGWpg?autoplay=0"
-          frameborder="0"
-          allowfullscreen
-        ></iframe>
-        {/* <!-- <div class="video-container" style="text-align: center">
-            </div> --> */}
-      </div>
-    </div>
+    // <div className="pricing-area youtube-div pt-80 pb-80 mb-0 bg-f9f6f6">
+    //   <div className="video-box" style={{ textAlign: "center" }}>
+    //     <div className="section-title">
+    //       <h2>YouTube Channel</h2>
+    //       <div className="bar"></div>
+    //     </div>
+    //     <iframe title="Descriptive title"
+    //       id="youtube-iframe"
+    //       style={{ }}
+    //       src="https://www.youtube.com/embed/YjjCuRJGWpg?autoplay=0"
+    //       frameborder="0"
+    //       allowfullscreen
+    //     ></iframe>
+    //     {/* <!-- <div class="video-container" style="text-align: center">
+    //         </div> --> */}
+    //   </div>
+    // </div>
 
     <FunFactsArea />
 
