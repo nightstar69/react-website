@@ -36,18 +36,13 @@ const MainBanner = () => {
                 <div className="col-lg-5">
                   <div className="hero-content">
                     <h1
-                      data-aos="fade-up"
-                      data-aos-delay="100"
-                      data-aos-duration="1200"
-                      data-aos-once="false" style={{fontWeight:400}}
+                      
+                       style={{fontWeight:400}}
                     >
                       Unlock Your Potential With <span style={{fontWeight:500}}>'Bharat Intern'</span>
                     </h1>
                     <p
-                      data-aos="fade-up"
-                      data-aos-delay="200"
-                      data-aos-duration="1200"
-                      data-aos-once="false"
+                      
                     >
                       Our goal is to empower the next generation of tech leaders. Our internship program offers hands-on experience in different fields.
                     </p>
@@ -55,10 +50,7 @@ const MainBanner = () => {
                     <Link
                       to="/services-5"
                       className="btn btn-primary"
-                      data-aos="fade-up"
-                      data-aos-delay="300"
-                      data-aos-duration="1200"
-                      data-aos-once="false"
+                    
                     >
                       Get Started
                     </Link>
