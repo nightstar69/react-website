@@ -215,9 +215,16 @@ const Footer = () => {
                   </li>
                   <li>
                     <Icon.Mail />
-                    Email:{" "}
+                    Business Inquiries:{" "}
                     <a href="mailto:bharatintern.info@gmail.com">
                       bharatintern.info@gmail.com
+                    </a>
+                  </li>
+<li>
+                    <Icon.Mail />
+                    Student Support:{" "}
+                    <a href="mailto:contact.bharatintern@gmail.com">
+                      contact.bharatintern@gmail.com
                     </a>
                   </li>
                   {/* <li>
