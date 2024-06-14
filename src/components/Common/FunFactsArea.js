@@ -40,12 +40,6 @@ const FunFactsArea = () => {
               </div>
             </div>
 
-            // <div className="col-lg-3 col-md-3 col-6">
-            //   <div className="funfact">
-            //     <h3>1M+</h3>
-            //     <p>Website Traffic per month</p>
-            //   </div>
-            // </div>
           </div>
 
           <div className="contact-cta-box">
