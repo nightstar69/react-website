@@ -19,33 +19,33 @@ const FunFactsArea = () => {
           </div>
 
           <div className="row">
-            <div className="col-lg-3 col-md-3 col-6">
+            <div className="col-lg-4 col-md-4 col-4">
               <div className="funfact">
-                <h3>200K+</h3>
+                <h3>250K+</h3>
                 <p>LinkedIn community</p>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-6">
+            <div className="col-lg-4 col-md-4 col-4">
               <div className="funfact">
-                <h3>100K+</h3>
+                <h3>120K+</h3>
                 <p>Telegram community</p>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-6">
+            <div className="col-lg-4 col-md-4 col-4">
               <div className="funfact">
-                <h3>16k+</h3>
+                <h3>23k+</h3>
                 <p>Youtube community</p>
               </div>
             </div>
 
-            <div className="col-lg-3 col-md-3 col-6">
-              <div className="funfact">
-                <h3>1M+</h3>
-                <p>Website Traffic per month</p>
-              </div>
-            </div>
+            // <div className="col-lg-3 col-md-3 col-6">
+            //   <div className="funfact">
+            //     <h3>1M+</h3>
+            //     <p>Website Traffic per month</p>
+            //   </div>
+            // </div>
           </div>
 
           <div className="contact-cta-box">
