@@ -21,7 +21,7 @@ const Redirect = () => {
   return (
     <Layout>
       <Navbar />
-      <PageBanner pageTitle="Redirect..." />
+      <PageBanner pageTitle="Redirecting..." />
       <Footer />
     </Layout>
   );
