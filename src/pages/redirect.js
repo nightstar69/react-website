@@ -21,7 +21,7 @@ const Redirect = () => {
   return (
     <Layout>
       <Navbar />
-      <PageBanner pageTitle="Virtual Internship Program (August-September Session)" />
+      <PageBanner pageTitle="Redirect..." />
       <Footer />
     </Layout>
   );
