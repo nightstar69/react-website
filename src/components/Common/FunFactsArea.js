@@ -21,21 +21,21 @@ const FunFactsArea = () => {
           <div className="row">
             <div className="col-lg-4 col-md-4 col-4">
               <div className="funfact">
-                <h3>250K+</h3>
+                <h3>300K+</h3>
                 <p>LinkedIn community</p>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-4 col-4">
               <div className="funfact">
-                <h3>120K+</h3>
+                <h3>130K+</h3>
                 <p>Telegram community</p>
               </div>
             </div>
 
             <div className="col-lg-4 col-md-4 col-4">
               <div className="funfact">
-                <h3>23k+</h3>
+                <h3>25k+</h3>
                 <p>Youtube community</p>
               </div>
             </div>
