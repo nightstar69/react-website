@@ -106,7 +106,7 @@ const ServiceDetailsPage = () => {
     <Layout>
       <Navbar />
 
-      <PageBanner pageTitle="Virtual Internship Program (August-September Session)" />
+      <PageBanner pageTitle="Virtual Internship Program (September-October Session)" />
 
       <div
         className="services-details-area col-lg-12"
